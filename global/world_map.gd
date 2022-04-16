@@ -6,7 +6,8 @@ class_name InteractiveTilemap
 # This way, by referring to TILE_SCENES with a certain ID we will receive this tile's
 # individual scene
 export(Dictionary) var TILE_SCENES := {
-	1: preload("res://content/star/star.tscn")
+	1: preload("res://content/star/star.tscn"),
+	4: preload("res://content/player/packman.tscn")
 }
 
 onready var half_cell_size := cell_size * 0.5
